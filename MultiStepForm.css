@@ -1,0 +1,61 @@
+.multi-step-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-field {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+  }
+  
+  .error {
+    border-color: #dc3545;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 5px;
+  }
+  
+  .navigation-button,
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .navigation-button:hover,
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
